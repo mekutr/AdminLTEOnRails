@@ -11,14 +11,15 @@
  * file per style scope.
  *
  *= require jquery-ui
+ *= require twitter/bootstrap
  *= require font-awesome
  *= require ionicons
  *=
  *Dashboard - version1
  *= require morris
- *= require jvectormap
+ *= require externals/jquery-jvectormap-1.2.2
  *= require bootstrap-datepicker3
- *= require daterangepicker-bs3
+ *= require externals/daterangepicker
  *= require bootstrap-wysihtml5
  *=
  *= require dist/AdminLTE
