@@ -5,7 +5,7 @@ class DashboardController < ApplicationController
   end
 
   def version2
-
+    @page_title = 'Dashboard_v2'
   end
 
 end
