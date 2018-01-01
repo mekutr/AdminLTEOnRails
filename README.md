@@ -1,6 +1,6 @@
 ## AdminLTEOnRails
 
-AdminLTEOnRails ports the famous [AdminLTE](https://github.com/almasaeed2010/AdminLTE) control panel theme to the Rails framework. If you are a Rails developer and looking forward to use AdminLTE in your application, AdminLTEOnRails provides you with the same functionalities that you can get from AdminLTE with some couple ofsuper charged extras.
+AdminLTEOnRails ports the famous [AdminLTE](https://github.com/almasaeed2010/AdminLTE) control panel theme to the Rails framework. If you are a Rails developer and looking forward to use AdminLTE in your application, AdminLTEOnRails provides you with the same functionalities that you can get from AdminLTE with some couple of super charged extras.
 
 ### What are those super charged extras?
 #### MVC design:
@@ -11,3 +11,26 @@ AdminLTEOnRails partitions all the the views and layouts by using partials. This
 AdminLTEOnRails provides a config class for its users to configure the application for their needs. After the configuration is done, the settings get applied to all the views in the application.
 #### Gemification:
 Most of the dependency files were moved to into the Gemfile. This way, Rails takes care of all the dependency configuration for its users. 
+
+### Installation
+1. Create a directory for AdminLTEOnRails
+```sh
+$ mkdir ~/admin_lte_on_rails
+```
+2. Clone the app
+```sh
+$ git clone https://github.com/mekutr/AdminLTEOnRails.git ~/admin_lte_on_rails
+```
+3. Go to the AdminLTEOnRails directory
+```sh
+$ cd ~/admin_lte_on_rails
+```
+4. Install all the required gems (bundler should already be installed)
+```sh
+~admin_lte_on_rails$ bundle install
+```
+5. Run the puma server (this command runs the web server from port 3000) 
+```sh
+~admin_lte_on_rails$ puma -p 3000
+```
+6. Go to your favorite browser and browse to http://localhost:3000/
