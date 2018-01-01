@@ -10,9 +10,14 @@ AdminLTEOnRails partitions all the the views and layouts by using partials. This
 #### App Configuration:
 AdminLTEOnRails provides a config class for its users to configure the application for their needs. After the configuration is done, the settings get applied to all the views in the application.
 #### Gemification:
-Most of the dependency files were moved to into the Gemfile. This way, Rails takes care of all the dependency configuration for its users. 
+Most of the dependency files were moved to into the Gemfile. This way, Rails takes care of all the dependency configuration for its users.
 
 ### Installation
+This section will get you going with the installation of the application.
+#### Prerequisites
+1. Ruby version 2.3.3 should be installed (I only tested the application with Ruby version 2.3.3 but the app should be fine with 2.2.0+)
+2. Bundler gem needs to be installed.
+#### Steps 
 1. Create a directory for AdminLTEOnRails
 ```sh
 $ mkdir ~/admin_lte_on_rails
@@ -25,7 +30,7 @@ $ git clone https://github.com/mekutr/AdminLTEOnRails.git ~/admin_lte_on_rails
 ```sh
 $ cd ~/admin_lte_on_rails
 ```
-4. Install all the required gems (bundler should already be installed)
+4. Install all the required gems
 ```sh
 ~admin_lte_on_rails$ bundle install
 ```
