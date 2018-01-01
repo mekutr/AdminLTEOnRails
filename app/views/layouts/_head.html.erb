@@ -9,9 +9,22 @@
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
   <% if controller.controller_name == 'dashboard' && controller.action_name == 'version1' %>
-      <%= stylesheet_link_tag 'dashboard_v1', media: 'all', 'data-turbolinks-track' => false %>
+    <%= stylesheet_link_tag 'dashboard_v1', media: 'all', 'data-turbolinks-track' => false %>
   <% elsif controller.controller_name == 'dashboard' && controller.action_name == 'version2' %>
-      <%= stylesheet_link_tag 'dashboard_v2', media: 'all', 'data-turbolinks-track' => false %>
+    <%= stylesheet_link_tag 'dashboard_v2', media: 'all', 'data-turbolinks-track' => false %>
+
+  <% elsif controller.controller_name == 'widgets' %>
+    <%= stylesheet_link_tag 'widgets', media: 'all', 'data-turbolinks-track' => false %>
+
+  <% elsif controller.controller_name == 'charts' && controller.action_name == 'chartjs' %>
+    <%= stylesheet_link_tag 'charts_chartjs', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'charts' && controller.action_name == 'morris' %>
+    <%= stylesheet_link_tag 'charts_morris', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'charts' && controller.action_name == 'flot' %>
+    <%= stylesheet_link_tag 'charts_flot', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'charts' && controller.action_name == 'inline' %>
+    <%= stylesheet_link_tag 'charts_inline', media: 'all', 'data-turbolinks-track' => false %>
+
   <% end %>
 
   <%= csrf_meta_tags %>

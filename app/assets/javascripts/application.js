@@ -10,3 +10,8 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+
+// This file includes the common AdminLTE JS files that is commonly used on every page
+//= require dist/adminlte
+//= require dist/adminlte_extra
+//= require dist/demo

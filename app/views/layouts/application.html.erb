@@ -3,12 +3,16 @@
 
   <%= render 'layouts/head' %>
 
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition sidebar-mini <%= !@demo_mode ? @layout  + ' ' + @top_nav + ' ' + @sidebar + ' ' + @skin : 'skin-green' %>">
 
   <div class="wrapper">
 
-    <%= render 'layouts/navbar' %>
-    <%= render 'layouts/sidebar' %>
+    <% if @demo_mode || @top_nav == '' %>
+      <%= render 'layouts/navbar' %>
+      <%= render 'layouts/sidebar' %>
+    <% else %>
+      <%= render 'layouts/navbar_only' %>
+    <% end %>
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
@@ -16,7 +20,9 @@
     </div>
 
     <%= render 'layouts/footer' %>
-    <%= render 'layouts/control_sidebar' %>
+    <% if @demo_mode || @top_nav == '' %>
+      <%= render 'layouts/control_sidebar' %>
+    <% end %>
 
   </div>
 
@@ -24,7 +30,36 @@
     <%= javascript_include_tag 'dashboard_v1', 'data-turbolinks-track' => false %>
   <% elsif controller.controller_name == 'dashboard' && controller.action_name == 'version2' %>
     <%= javascript_include_tag 'dashboard_v2', 'data-turbolinks-track' => false %>
+
+  <% elsif controller.controller_name == 'widgets' %>
+    <%= javascript_include_tag 'widgets', 'data-turbolinks-track' => false %>
+
+  <% elsif controller.controller_name == 'charts' && controller.action_name == 'chartjs' %>
+    <%= javascript_include_tag 'charts_chartjs', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'charts' && controller.action_name == 'morris' %>
+    <%= javascript_include_tag 'charts_morris', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'charts' && controller.action_name == 'flot' %>
+    <%= javascript_include_tag 'charts_flot', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'charts' && controller.action_name == 'inline' %>
+    <%= javascript_include_tag 'charts_inline', 'data-turbolinks-track' => false %>
+
   <% end %>
+
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
+
+  <script>
+    <% if !@demo_mode %>
+      <% if @collapsed_sidebar_expand_on_hover %>
+        collapsed_sidebar_expand_on_hover();
+      <% end %>
+      <% if @right_sidebar_slide %>
+        right_sidebar_slide();
+      <% end %>
+    <% else %>
+      <!-- AdminLTE for demo purposes -->
+      run_demo();
+    <% end %>
+  </script>
 
 </body>
 </html>

@@ -12,3 +12,10 @@ Rails.application.config.assets.version = '1.0'
 
 Rails.application.config.assets.precompile += %w( dashboard_v1.css dashboard_v1.js)
 Rails.application.config.assets.precompile += %w( dashboard_v2.css dashboard_v2.js)
+
+Rails.application.config.assets.precompile += %w( widgets.css widgets.js)
+
+Rails.application.config.assets.precompile += %w( charts_chartjs.css charts_chartjs.js)
+Rails.application.config.assets.precompile += %w( charts_morris.css charts_morris.js)
+Rails.application.config.assets.precompile += %w( charts_flot.css charts_flot.js)
+Rails.application.config.assets.precompile += %w( charts_inline.css charts_inline.js)

@@ -1,9 +1,8 @@
 /*
- *Dashboard-version2
+ *Charts-inline
  *= require __bootstrap
  *= require font-awesome
  *= require ionicons
- *= require externals/jquery-jvectormap-1.2.2
  *= require dist/AdminLTE
  *= require dist/skins/_all-skins
  */
