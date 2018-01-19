@@ -43,6 +43,19 @@
   <% elsif controller.controller_name == 'charts' && controller.action_name == 'inline' %>
     <%= javascript_include_tag 'charts_inline', 'data-turbolinks-track' => false %>
 
+  <% elsif controller.controller_name == 'uielements' && controller.action_name == 'general' %>
+    <%= javascript_include_tag 'uielements_general', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'uielements' && controller.action_name == 'icons' %>
+    <%= javascript_include_tag 'uielements_icons', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'uielements' && controller.action_name == 'buttons' %>
+    <%= javascript_include_tag 'uielements_buttons', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'uielements' && controller.action_name == 'sliders' %>
+    <%= javascript_include_tag 'uielements_sliders', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'uielements' && controller.action_name == 'timeline' %>
+    <%= javascript_include_tag 'uielements_timeline', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'uielements' && controller.action_name == 'modals' %>
+    <%= javascript_include_tag 'uielements_modals', 'data-turbolinks-track' => false %>
+
   <% end %>
 
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>

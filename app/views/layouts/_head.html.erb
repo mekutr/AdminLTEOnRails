@@ -25,7 +25,22 @@
   <% elsif controller.controller_name == 'charts' && controller.action_name == 'inline' %>
     <%= stylesheet_link_tag 'charts_inline', media: 'all', 'data-turbolinks-track' => false %>
 
+  <% elsif controller.controller_name == 'uielements' && controller.action_name == 'general' %>
+    <%= stylesheet_link_tag 'uielements_general', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'uielements' && controller.action_name == 'icons' %>
+    <%= stylesheet_link_tag 'uielements_icons', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'uielements' && controller.action_name == 'buttons' %>
+    <%= stylesheet_link_tag 'uielements_buttons', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'uielements' && controller.action_name == 'sliders' %>
+    <%= stylesheet_link_tag 'uielements_sliders', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'uielements' && controller.action_name == 'timeline' %>
+    <%= stylesheet_link_tag 'uielements_timeline', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'uielements' && controller.action_name == 'modals' %>
+    <%= stylesheet_link_tag 'uielements_modals', media: 'all', 'data-turbolinks-track' => false %>
+
   <% end %>
+
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => false %>
 
   <%= csrf_meta_tags %>
 

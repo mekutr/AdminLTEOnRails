@@ -19,3 +19,10 @@ Rails.application.config.assets.precompile += %w( charts_chartjs.css charts_char
 Rails.application.config.assets.precompile += %w( charts_morris.css charts_morris.js)
 Rails.application.config.assets.precompile += %w( charts_flot.css charts_flot.js)
 Rails.application.config.assets.precompile += %w( charts_inline.css charts_inline.js)
+
+Rails.application.config.assets.precompile += %w( uielements_general.css uielements_general.js)
+Rails.application.config.assets.precompile += %w( uielements_icons.css uielements_icons.js)
+Rails.application.config.assets.precompile += %w( uielements_buttons.css uielements_buttons.js)
+Rails.application.config.assets.precompile += %w( uielements_sliders.css uielements_sliders.js)
+Rails.application.config.assets.precompile += %w( uielements_timeline.css uielements_timeline.js)
+Rails.application.config.assets.precompile += %w( uielements_modals.css uielements_modals.js)
