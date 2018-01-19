@@ -11,3 +11,10 @@
  * file per style scope.
  *
  */
+
+/* This file includes the common AdminLTE CSS files that is commonly used on every page */
+
+/*
+ *= require dist/AdminLTE
+ *= require dist/skins/_all-skins
+ */
