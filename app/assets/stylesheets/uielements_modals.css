@@ -1,0 +1,21 @@
+/*
+ *UIElements-modals
+ *= require __bootstrap
+ *= require font-awesome
+ *= require ionicons
+ */
+
+/*below includes styles specifically for the UIElements-modals page*/
+.example-modal .modal {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    display: block;
+    z-index: 1;
+}
+
+.example-modal .modal {
+    background: transparent !important;
+}
