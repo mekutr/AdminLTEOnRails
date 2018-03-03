@@ -38,6 +38,13 @@
   <% elsif controller.controller_name == 'uielements' && controller.action_name == 'modals' %>
     <%= stylesheet_link_tag 'uielements_modals', media: 'all', 'data-turbolinks-track' => false %>
 
+  <% elsif controller.controller_name == 'forms' && controller.action_name == 'general' %>
+    <%= stylesheet_link_tag 'forms_general', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'forms' && controller.action_name == 'advanced' %>
+    <%= stylesheet_link_tag 'forms_advanced', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'forms' && controller.action_name == 'editors' %>
+    <%= stylesheet_link_tag 'forms_editors', media: 'all', 'data-turbolinks-track' => false %>
+
   <% end %>
 
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => false %>

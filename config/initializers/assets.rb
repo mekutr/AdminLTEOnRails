@@ -26,3 +26,7 @@ Rails.application.config.assets.precompile += %w( uielements_buttons.css uieleme
 Rails.application.config.assets.precompile += %w( uielements_sliders.css uielements_sliders.js)
 Rails.application.config.assets.precompile += %w( uielements_timeline.css uielements_timeline.js)
 Rails.application.config.assets.precompile += %w( uielements_modals.css uielements_modals.js)
+
+Rails.application.config.assets.precompile += %w( forms_general.css forms_general.js)
+Rails.application.config.assets.precompile += %w( forms_advanced.css forms_advanced.js)
+Rails.application.config.assets.precompile += %w( forms_editors.css forms_editors.js)

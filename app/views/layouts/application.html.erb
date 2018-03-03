@@ -56,6 +56,13 @@
   <% elsif controller.controller_name == 'uielements' && controller.action_name == 'modals' %>
     <%= javascript_include_tag 'uielements_modals', 'data-turbolinks-track' => false %>
 
+  <% elsif controller.controller_name == 'forms' && controller.action_name == 'general' %>
+    <%= javascript_include_tag 'forms_general', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'forms' && controller.action_name == 'advanced' %>
+    <%= javascript_include_tag 'forms_advanced', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'forms' && controller.action_name == 'editors' %>
+    <%= javascript_include_tag 'forms_editors', 'data-turbolinks-track' => false %>
+
   <% end %>
 
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
