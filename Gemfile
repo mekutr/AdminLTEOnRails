@@ -19,23 +19,23 @@ gem 'puma',                             '3.6.2'               # Puma is a simple
 #   --UI Related
 gem 'jquery-rails',                     '4.2.2'               # This gem provides jQuery and the jQuery-ujs driver for your Rails 4+ application.
 gem 'jquery-ui-rails',                  '6.0.1'               # This gem packages the jQuery UI assets (JavaScripts, stylesheets, and images) for the Rails asset pipeline.
+gem 'jquery-inputmask-rails',           '2.5.5'               # An inputmask helps the user with the input by ensuring a predefined format
+gem 'jquery-knob-rails',                '1.2.13'              # This gem provides the jQuery Knob plugin.
 gem 'bootstrap-sass',                   '3.3.7'               # Bootstrap-sass is a Sass-powered version of Bootstrap 3.
+gem 'bootstrap-datepicker-rails',       '1.7.1.1'             # This gem integrates a datepicker with Rails 3 assets pipeline.
+gem 'bootstrap-timepicker-rails-addon', '0.5.2'               # Timepicker for Bootstrap
+gem 'bootstrap-colorpicker2-rails',     '0.0.1'               # Colorpicker for Bootstrap
+gem 'bootstrap-wysihtml5-rails',        '0.3.3.8'             # A wysiwyg text editor for Bootstrap.
 gem 'font-awesome-rails',               '4.7.0.1'             # The font-awesome font bundled as an asset for the rails asset pipeline.
 gem 'ionicons-rails',                   '2.0.0'               # Ionicons for Ruby on Rails.
+gem 'icheck-rails',                     '1.0.2.2'             # iCheck is a library for creating super customized checkboxes and radio buttons with JQuery & Zepto
 gem 'morris.js-rails',                  '1.0.1'               # Morris.js library wrapper, comes with raphael.js
 gem 'flot-rails',                       '0.0.7'               # Vendor jQuery Flot library for Rails 3.1+ asset pipeline
 gem 'sparkline',                        '0.1.0'               # This gem adds sparkline JS to your rails project.
-gem 'bootstrap-datepicker-rails',       '1.7.1.1'             # This gem integrates a datepicker with Rails 3 assets pipeline.
-gem 'bootstrap-wysihtml5-rails',        '0.3.3.8'             # A wysiwyg text editor for Bootstrap.
+gem 'select2-rails',                    '4.0.3'               # Select2 is a jQuery based replacement for select boxes
+gem 'ckeditor',                         '4.2.4'               # CKEditor is a WYSIWYG text editor
 gem 'momentjs-rails',                   '2.17.1'              # Moment.js is a lightweight javascript date library for parsing, manipulating, and formatting dates. This gem allows for its easy inclusion into the rails asset pipeline.
 gem 'fastclick-rails',                  '1.0.1'               # This is the gem for fastclick.js.
-gem 'jquery-knob-rails',                '1.2.13'              # This gem provides the jQuery Knob plugin.
-gem 'icheck-rails',                     '1.0.2.2'             # iCheck is a library for creating super customized checkboxes and radio buttons with JQuery & Zepto
-gem 'bootstrap-colorpicker2-rails',     '0.0.1'               # Colorpicker for Bootstrap
-gem 'bootstrap-timepicker-rails-addon', '0.5.2'               # Timepicker for Bootstrap
-gem 'select2-rails',                    '4.0.3'               # Select2 is a jQuery based replacement for select boxes
-gem 'jquery-inputmask-rails',           '2.5.5'               # An inputmask helps the user with the input by ensuring a predefined format
-gem 'ckeditor',                         '4.2.4'               # CKEditor is a WYSIWYG text editor
 
 group :development, :test do
   gem 'byebug',                         '9.0.6'               # Byebug is a Ruby 2 debugger.
