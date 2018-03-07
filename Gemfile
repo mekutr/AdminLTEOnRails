@@ -30,6 +30,11 @@ gem 'bootstrap-wysihtml5-rails',        '0.3.3.8'             # A wysiwyg text e
 gem 'momentjs-rails',                   '2.17.1'              # Moment.js is a lightweight javascript date library for parsing, manipulating, and formatting dates. This gem allows for its easy inclusion into the rails asset pipeline.
 gem 'fastclick-rails',                  '1.0.1'               # This is the gem for fastclick.js.
 gem 'jquery-knob-rails',                '1.2.13'              # This gem provides the jQuery Knob plugin.
+gem 'icheck-rails',                     '1.0.2.2'             # iCheck is a library for creating super customized checkboxes and radio buttons with JQuery & Zepto
+gem 'bootstrap-colorpicker2-rails',     '0.0.1'               # Colorpicker for Bootstrap
+gem 'bootstrap-timepicker-rails-addon', '0.5.2'               # Timepicker for Bootstrap
+gem 'select2-rails',                    '4.0.3'               # Select2 is a jQuery based replacement for select boxes
+gem 'jquery-inputmask-rails',           '2.5.5'               # An inputmask helps the user with the input by ensuring a predefined format
 
 group :development, :test do
   gem 'byebug',                         '9.0.6'               # Byebug is a Ruby 2 debugger.

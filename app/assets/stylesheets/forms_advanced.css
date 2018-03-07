@@ -3,4 +3,11 @@
  *= require __bootstrap
  *= require font-awesome
  *= require ionicons
+ *= require externals/daterangepicker
+ *= require bootstrap-datepicker3
+ *= require __icheck
+ *= require bootstrap-colorpicker
+ *= require __bootstrap_timepicker
+ *= require select2
+ *= require select2-bootstrap
  */
