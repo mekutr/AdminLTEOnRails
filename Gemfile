@@ -35,6 +35,7 @@ gem 'bootstrap-colorpicker2-rails',     '0.0.1'               # Colorpicker for 
 gem 'bootstrap-timepicker-rails-addon', '0.5.2'               # Timepicker for Bootstrap
 gem 'select2-rails',                    '4.0.3'               # Select2 is a jQuery based replacement for select boxes
 gem 'jquery-inputmask-rails',           '2.5.5'               # An inputmask helps the user with the input by ensuring a predefined format
+gem 'ckeditor',                         '4.2.4'               # CKEditor is a WYSIWYG text editor
 
 group :development, :test do
   gem 'byebug',                         '9.0.6'               # Byebug is a Ruby 2 debugger.
