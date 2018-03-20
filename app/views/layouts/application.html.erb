@@ -63,6 +63,11 @@
   <% elsif controller.controller_name == 'forms' && controller.action_name == 'editors' %>
     <%= javascript_include_tag 'forms_editors', 'data-turbolinks-track' => false %>
 
+<% elsif controller.controller_name == 'tables' && controller.action_name == 'simple' %>
+  <%= javascript_include_tag 'tables_simple', 'data-turbolinks-track' => false %>
+<% elsif controller.controller_name == 'tables' && controller.action_name == 'data' %>
+  <%= javascript_include_tag 'tables_data', 'data-turbolinks-track' => false %>
+
   <% end %>
 
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
