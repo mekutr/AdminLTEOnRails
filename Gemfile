@@ -36,6 +36,8 @@ gem 'select2-rails',                    '4.0.3'               # Select2 is a jQu
 gem 'ckeditor',                         '4.2.4'               # CKEditor is a WYSIWYG text editor
 gem 'momentjs-rails',                   '2.17.1'              # Moment.js is a lightweight javascript date library for parsing, manipulating, and formatting dates. This gem allows for its easy inclusion into the rails asset pipeline.
 gem 'fastclick-rails',                  '1.0.1'               # This is the gem for fastclick.js.
+gem 'jquery-datatables-rails'
+
 
 group :development, :test do
   gem 'byebug',                         '9.0.6'               # Byebug is a Ruby 2 debugger.

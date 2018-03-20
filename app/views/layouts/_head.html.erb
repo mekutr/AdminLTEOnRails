@@ -45,6 +45,10 @@
   <% elsif controller.controller_name == 'forms' && controller.action_name == 'editors' %>
     <%= stylesheet_link_tag 'forms_editors', media: 'all', 'data-turbolinks-track' => false %>
 
+  <% elsif controller.controller_name == 'tables' && controller.action_name == 'simple' %>
+    <%= stylesheet_link_tag 'tables_simple', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'tables' && controller.action_name == 'data' %>
+    <%= stylesheet_link_tag 'tables_data', media: 'all', 'data-turbolinks-track' => false %>
   <% end %>
 
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => false %>
