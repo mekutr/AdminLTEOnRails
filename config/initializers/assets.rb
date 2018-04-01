@@ -33,3 +33,5 @@ Rails.application.config.assets.precompile += %w( forms_editors.css forms_editor
 
 Rails.application.config.assets.precompile += %w( tables_simple.css tables_simple.js)
 Rails.application.config.assets.precompile += %w( tables_data.css tables_data.js)
+
+Rails.application.config.assets.precompile += %w( calendar.css calendar.js)

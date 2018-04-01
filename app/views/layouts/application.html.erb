@@ -68,6 +68,9 @@
   <% elsif controller.controller_name == 'tables' && controller.action_name == 'data' %>
     <%= javascript_include_tag 'tables_data', 'data-turbolinks-track' => false %>
 
+  <% elsif controller.controller_name == 'calendar' %>
+    <%= javascript_include_tag 'calendar', 'data-turbolinks-track' => false %>
+
   <% end %>
 
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>

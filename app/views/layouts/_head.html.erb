@@ -50,6 +50,9 @@
   <% elsif controller.controller_name == 'tables' && controller.action_name == 'data' %>
     <%= stylesheet_link_tag 'tables_data', media: 'all', 'data-turbolinks-track' => false %>
 
+  <% elsif controller.controller_name == 'calendar' %>
+    <%= stylesheet_link_tag 'calendar', media: 'all', 'data-turbolinks-track' => false %>
+
   <% end %>
 
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => false %>

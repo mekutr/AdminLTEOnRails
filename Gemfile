@@ -35,6 +35,7 @@ gem 'flot-rails',                       '0.0.7'               # Vendor jQuery Fl
 gem 'sparkline',                        '0.1.0'               # This gem adds sparkline JS to your rails project.
 gem 'select2-rails',                    '4.0.3'               # Select2 is a jQuery based replacement for select boxes
 gem 'ckeditor',                         '4.2.4'               # CKEditor is a WYSIWYG text editor
+gem 'fullcalendar-rails',               '3.4.0.0'             # FullCalendar is a fantastic jQuery plugin that gives you an event calendar with tons of great AJAX wizardry, including drag and drop of events.
 gem 'momentjs-rails',                   '2.17.1'              # Moment.js is a lightweight javascript date library for parsing, manipulating, and formatting dates. This gem allows for its easy inclusion into the rails asset pipeline.
 gem 'fastclick-rails',                  '1.0.1'               # This is the gem for fastclick.js.
 
