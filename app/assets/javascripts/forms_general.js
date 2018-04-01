@@ -1,4 +1,4 @@
-//Forms-general_elements
+//Forms-general
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap-sprockets

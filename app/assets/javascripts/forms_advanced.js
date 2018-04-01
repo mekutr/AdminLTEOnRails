@@ -1,4 +1,4 @@
-//Forms-advanced_elements
+//Forms-advanced
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap-sprockets
