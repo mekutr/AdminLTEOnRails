@@ -53,6 +53,13 @@
   <% elsif controller.controller_name == 'calendar' %>
     <%= stylesheet_link_tag 'calendar', media: 'all', 'data-turbolinks-track' => false %>
 
+  <% elsif controller.controller_name == 'mailbox' && controller.action_name == 'inbox' %>
+    <%= stylesheet_link_tag 'mailbox_inbox', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'mailbox' && controller.action_name == 'compose' %>
+    <%= stylesheet_link_tag 'mailbox_compose', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'mailbox' && controller.action_name == 'read' %>
+    <%= stylesheet_link_tag 'mailbox_read', media: 'all', 'data-turbolinks-track' => false %>
+
   <% end %>
 
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => false %>

@@ -71,6 +71,13 @@
   <% elsif controller.controller_name == 'calendar' %>
     <%= javascript_include_tag 'calendar', 'data-turbolinks-track' => false %>
 
+  <% elsif controller.controller_name == 'mailbox' && controller.action_name == 'inbox' %>
+    <%= javascript_include_tag 'mailbox_inbox', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'mailbox' && controller.action_name == 'compose' %>
+    <%= javascript_include_tag 'mailbox_compose', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'mailbox' && controller.action_name == 'read' %>
+    <%= javascript_include_tag 'mailbox_read', 'data-turbolinks-track' => false %>
+
   <% end %>
 
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
