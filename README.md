@@ -10,7 +10,7 @@ AdminLTEOnRails ports the famous [AdminLTE](https://github.com/almasaeed2010/Adm
 
 **App Configuration:** AdminLTEOnRails provides a config class for its users to configure the application for their needs. After the configuration is done, the settings get applied to all the views in the application.
 
-**Gemification:** Most of the dependency files were moved to into the Gemfile. This way, Rails takes care of all the dependency configuration for its users.
+**Gemification:** Most of the dependency files were moved into the Gemfile. This way, Rails takes care of all the dependency configuration for its users.
 
 ---
 
@@ -64,9 +64,9 @@ $ cd ~/admin_lte_on_rails
 
 The app can easily be configured by using the `AdminLteConfig` class which is located in application_controller.rb. I highly recommend you to run the application in demo mode before deciding which configuration settings need to be used.
 
-You can easily test different configuration settings by openning the right control sidebar while the app is in the demo mode. The app utilizes itself with extra settings while it is in the demo mode. This way a user can test the application with different settings. After deciding which settings need to be used, please disable the demo mode and configure the application through the `AdminLteConfig` class.
+You can easily test different configuration settings by openning the right control sidebar while the app is in the demo mode. The app utilizes itself with extra settings while it is in the demo mode. This way, a user can test the application with different settings. After deciding which settings need to be used, please disable the demo mode and configure the application through the `AdminLteConfig` class.
 
-The folowing code snippet is from the `AdminLteConfig` class. Please change the necessary sections after deciding what config settings to use and do not forget disabling the demo mode.
+The folowing code snippet is from the `AdminLteConfig` class. Please change the necessary sections after deciding which config settings need to be applied to your application and do not forget disabling the demo mode.
 
 ```ruby
 # -This setting runs the demo features to demo the application for you to decide the configuration settings that you
