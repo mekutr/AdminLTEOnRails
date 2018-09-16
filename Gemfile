@@ -1,21 +1,21 @@
 source 'https://rubygems.org'
 
-ruby '2.3.3' # declares the ruby version used by the application
+ruby '2.5.1' # declares the ruby version used by the application
 
 #   gem-name                            version-info          gem-definition
 #   --Core
-gem 'rails',                            '4.2.7.1'             # This is the web framework that we use in the app.
+gem 'rails',                            '4.2.10'              # This is the web framework that we use in the app.
 gem 'therubyracer',                     '0.12.3'              # Embeds the V8 JavaScript interpreter into Ruby -- lets you to run JS code in Ruby and Ruby code in JS.
 gem 'turbolinks',                       '5.0.1'               # Turbolinks makes your web application faster -- this might break current flow if AJAX is being heavily used.
 gem 'sass-rails',                       '5.0.6'               # Sass adapter for the Rails asset pipeline.
 gem 'coffee-rails',                     '4.2.1'               # CoffeeScript adapter for the Rails asset pipeline.
 gem 'jbuilder',                         '2.6.1'               # JBuilder gives you a simple DSL for declaring JSON structures.
 gem 'uglifier',                         '3.0.4'               # Minifies JavaScript files by wrapping UglifyJS to be accessible in Ruby.
-gem 'sprockets-rails',                  '3.2.0'               # Sprockets Rails integration -- Sprockets is a Rack-based asset packaging system that concatenates and serves JavaScript, CoffeeScript, CSS, LESS, Sass, and SCSS.
+gem 'sprockets-rails',                  '3.2.1'               # Sprockets Rails integration -- Sprockets is a Rack-based asset packaging system that concatenates and serves JavaScript, CoffeeScript, CSS, LESS, Sass, and SCSS.
 #   --Database
 gem 'sqlite3',                          '1.3.13'              # This module allows Ruby programs to interface with the SQLite3 database engine.
 #   --Server
-gem 'puma',                             '3.6.2'               # Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack applications.
+gem 'puma',                             '3.11.4'              # Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack applications.
 #   --UI Related
 gem 'jquery-rails',                     '4.2.2'               # This gem provides jQuery and the jQuery-ujs driver for your Rails 4+ application.
 gem 'jquery-ui-rails',                  '6.0.1'               # This gem packages the jQuery UI assets (JavaScripts, stylesheets, and images) for the Rails asset pipeline.
