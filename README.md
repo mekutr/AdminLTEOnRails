@@ -20,7 +20,7 @@ This section will get you going with the installation of the application.
 
 **Prerequisites**
 
-1. Ruby version 2.3.3 should be installed (I only tested the application with Ruby version 2.3.3 but the app should be fine with 2.2.0+)
+1. Ruby version 2.5.1 should be installed (I tested the application with Ruby version 2.5.1 and 2.3.3 but the app should be working fine with 2.2.0+)
 
 2. Bundler gem needs to be installed.
 
