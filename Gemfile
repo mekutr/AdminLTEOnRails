@@ -22,7 +22,7 @@ gem 'jquery-ui-rails',                  '6.0.1'               # This gem package
 gem 'jquery-inputmask-rails',           '2.5.5'               # An inputmask helps the user with the input by ensuring a predefined format
 gem 'jquery-knob-rails',                '1.2.13'              # This gem provides the jQuery Knob plugin.
 gem 'jquery-datatables-rails',          '3.4.0'               # This gem packages the jQuery DataTables plugin.
-gem 'bootstrap-sass',                   '3.3.7'               # Bootstrap-sass is a Sass-powered version of Bootstrap 3.
+gem 'bootstrap-sass',                   '3.4.1'               # Bootstrap-sass is a Sass-powered version of Bootstrap 3.
 gem 'bootstrap-datepicker-rails',       '1.7.1.1'             # This gem integrates a datepicker with Rails 3 assets pipeline.
 gem 'bootstrap-timepicker-rails-addon', '0.5.2'               # Timepicker for Bootstrap
 gem 'bootstrap-colorpicker2-rails',     '0.0.1'               # Colorpicker for Bootstrap
