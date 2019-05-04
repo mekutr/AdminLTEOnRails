@@ -60,6 +60,23 @@
   <% elsif controller.controller_name == 'mailbox' && controller.action_name == 'read' %>
     <%= stylesheet_link_tag 'mailbox_read', media: 'all', 'data-turbolinks-track' => false %>
 
+  <% elsif controller.controller_name == 'examples' && controller.action_name == 'invoice' %>
+    <%= stylesheet_link_tag 'examples_invoice', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'examples' && controller.action_name == 'profile' %>
+    <%= stylesheet_link_tag 'examples_profile', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'examples' && controller.action_name == 'register' %>
+    <%= stylesheet_link_tag 'examples_register', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'examples' && controller.action_name == 'lockscreen' %>
+    <%= stylesheet_link_tag 'examples_lockscreen', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'examples' && controller.action_name == 'error_404' %>
+    <%= stylesheet_link_tag 'examples_error_404', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'examples' && controller.action_name == 'error_500' %>
+    <%= stylesheet_link_tag 'examples_error_500', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'examples' && controller.action_name == 'blank' %>
+    <%= stylesheet_link_tag 'examples_blank', media: 'all', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'examples' && controller.action_name == 'pace' %>
+    <%= stylesheet_link_tag 'examples_pace', media: 'all', 'data-turbolinks-track' => false %>
+
   <% end %>
 
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => false %>

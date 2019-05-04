@@ -38,6 +38,7 @@ gem 'ckeditor',                         '4.2.4'               # CKEditor is a WY
 gem 'fullcalendar-rails',               '3.4.0.0'             # FullCalendar is a fantastic jQuery plugin that gives you an event calendar with tons of great AJAX wizardry, including drag and drop of events.
 gem 'momentjs-rails',                   '2.17.1'              # Moment.js is a lightweight javascript date library for parsing, manipulating, and formatting dates. This gem allows for its easy inclusion into the rails asset pipeline.
 gem 'fastclick-rails',                  '1.0.1'               # This is the gem for fastclick.js.
+gem 'pace-rails',                       '0.1.3'               # Pace automatic web page progress bar
 
 group :development, :test do
   gem 'byebug',                         '9.0.6'               # Byebug is a Ruby 2 debugger.

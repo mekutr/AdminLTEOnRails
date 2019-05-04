@@ -78,6 +78,23 @@
   <% elsif controller.controller_name == 'mailbox' && controller.action_name == 'read' %>
     <%= javascript_include_tag 'mailbox_read', 'data-turbolinks-track' => false %>
 
+  <% elsif controller.controller_name == 'examples' && controller.action_name == 'invoice' %>
+    <%= javascript_include_tag 'examples_invoice', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'examples' && controller.action_name == 'profile' %>
+    <%= javascript_include_tag 'examples_profile', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'examples' && controller.action_name == 'register' %>
+    <%= javascript_include_tag 'examples_register', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'examples' && controller.action_name == 'lockscreen' %>
+    <%= javascript_include_tag 'examples_lockscreen', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'examples' && controller.action_name == 'error_404' %>
+    <%= javascript_include_tag 'examples_error_404', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'examples' && controller.action_name == 'error_500' %>
+    <%= javascript_include_tag 'examples_error_500', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'examples' && controller.action_name == 'blank' %>
+    <%= javascript_include_tag 'examples_blank', 'data-turbolinks-track' => false %>
+  <% elsif controller.controller_name == 'examples' && controller.action_name == 'pace' %>
+    <%= javascript_include_tag 'examples_pace', 'data-turbolinks-track' => false %>
+
   <% end %>
 
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
